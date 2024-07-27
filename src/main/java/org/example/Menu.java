@@ -1,6 +1,4 @@
 package org.example;
-import javax.lang.model.util.AbstractElementVisitor9;
-import javax.tools.JavaFileManager;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -59,9 +57,9 @@ public class Menu {
             }
         }
     }
-    String BDAlumno="C:\\Users\\carlo\\IdeaProjects\\proyecto1\\alumnos.txt";
+    String BDAlumno="alumnos.txt";
     FileManagerAlumno fileManagerAlumno=new FileManagerAlumno(BDAlumno);
-    String BDCatedratico="C:\\Users\\carlo\\IdeaProjects\\proyecto1\\catedraticos.txt";
+    String BDCatedratico="catedraticos.txt";
     FileManagerCatedratico fileManagerCatedratico=new FileManagerCatedratico(BDCatedratico);
 
 
